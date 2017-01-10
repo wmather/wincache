@@ -1,0 +1,29 @@
+{
+    "name": "wmather/wincache",
+    "description": "Package to return the Wincache Cache Driver to Laravel 5.2+",
+    "keywords": ["laravel", "framework", "wincache", "store", "cache", "cache driver", "cache store"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Will Mather"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": "~5.2"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Wmather\\WinCache\\": "src/"
+        }
+    },
+
+    "config": {
+        "preferred-install": "dist"
+    },
+
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
