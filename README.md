@@ -1,4 +1,4 @@
-#Laravel Wincache Driver
+# Laravel Wincache Driver
 
 ## Installation
 
@@ -33,5 +33,5 @@ In your config/cache.php, add a new entry to the `stores` array
 And then in your `.env` file, set the CACHE_DRIVER to that alias
 
 ```
-CACHER_DRIVE=wincache
+CACHE_DRIVER=wincache
 ```
