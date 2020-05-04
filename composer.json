@@ -8,22 +8,18 @@
             "name": "Will Mather"
         }
     ],
-
     "require": {
         "php": ">=5.5.9",
-        "laravel/framework": "~5.2"
+        "laravel/framework": ">=5.2"
     },
-
     "autoload": {
         "psr-4": {
             "Wmather\\WinCache\\": "src/"
         }
     },
-
     "config": {
         "preferred-install": "dist"
     },
-
     "minimum-stability": "stable",
     "prefer-stable": true,
     "extra": {
